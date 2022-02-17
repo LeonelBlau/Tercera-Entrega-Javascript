@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.logo {
+    background-color: rgb(221, 172, 46);
+    width: 10%;
+    height: 10%;
+}
+
+.logoContenedor {
+    background-color: rgb(221, 172, 46);
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    justify-content: space-around;
+    background-color: rgb(44, 194, 136);
+    color: rgb(197, 25, 25);
+}
+
+.mainSection {
+
+
+ 
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(151, 190, 141);
+  color: rgb(0, 0, 0);
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+}
+
+.tiposDeCambio {
+    padding: 20px;
+    
+}
+
+
+.tarifa {
+    font-size: 20px;
+
+    
+    
+}
+
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: rgb(44, 194, 136);
+    border-top: 1px solid #4ca06c;
+    font-size: 20px;
+    height: auto;
+  }
+  footer .navUl2 :hover {
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+  }
+  .footerMail {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  } 
+  .navTitle {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footerBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(44, 194, 136);
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1em;
+    padding: 0 1em;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+
+
+  .footer ul {
+    list-style: none;
+    padding-left: 5em;
+   
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footerNav {
+    display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+  }
+  
+  .footerNav{
+    flex-grow: 1;
+    margin-right: 1.25em;
+  }
+  
+  .navUl2 a {
+    color: rgba(255, 255, 255, 0.527);
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 10px
+  }
+
+  .cantidades {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cantidades select {
+    padding: 10px 10px 10px 10px;
+    appearance: none;
+    font-size: 25px;
+    border-width: 0.2em;
+    border-color: rgb(33, 167, 0);
+    margin: 1.3em;
+    border-radius: 15%;
+    
+  }
